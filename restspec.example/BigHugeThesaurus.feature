@@ -5,6 +5,6 @@
 
 @mytag
 Scenario: JSON response from Big Huge Labs Thesaurus API
-	When I issue a 'GET' request to 'http://words.bighugelabs.com/apisample.php?v=2&format=json'
+	When I issue a 'GET' request to '/apisample.php?v=2&format=json'
 	Then the result should be '200'
 	And the response should be valid JSON
