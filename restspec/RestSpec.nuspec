@@ -10,9 +10,9 @@
 	    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <projectUrl>https://github.com/talkthinkdo/restspec</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>SpecFlow step definitions aimed at testing REST apis</description>
+    <!--<releaseNotes>Summary of changes made in this release of the package.</releaseNotes>-->
     <copyright>Copyright 2015</copyright>
-    <tags>specflow bdd gherkin cucumber rest</tags>
+    <tags>specflow bdd gherkin cucumber rest api</tags>
   </metadata>
 </package>
