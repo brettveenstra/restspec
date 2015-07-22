@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restspec", "restspec.csproj", "{051A56E4-242E-4A68-BAE6-E7CB8AD2E6C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restspec", "restspec\restspec.csproj", "{051A56E4-242E-4A68-BAE6-E7CB8AD2E6C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restspec.example", "..\restspec.example\restspec.example.csproj", "{DA36E6B7-884F-4FE6-B2B9-7A53DB4DA38C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restspec.example", "restspec.example\restspec.example.csproj", "{DA36E6B7-884F-4FE6-B2B9-7A53DB4DA38C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
