@@ -25,6 +25,6 @@
   <files>
     <file src="bin\Debug\restspec.dll" target="lib" />
     <file src="bin\Debug\restspec.pdb" target="lib" />
-    <file src="app.config.transform" target="lib" />
+    <file src="app.config.transform" target="content" />
   </files>
 </package>
