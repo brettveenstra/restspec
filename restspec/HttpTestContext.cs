@@ -1,5 +1,6 @@
 using System;
 using System.Configuration;
+using System.Net;
 using System.Net.Cache;
 using System.Net.Http;
 
@@ -44,5 +45,7 @@ namespace restspec
         public HttpRequestMessage RequestMessage { get; set; }
         public HttpResponseMessage ResponseMessage { get; set; }
         public TimeSpan TimeTaken { get; set; }
+        public string ResponseContent { get; set; }
+        public DecompressionMethods DecompressionMethod { get; set; }
     }
 }
