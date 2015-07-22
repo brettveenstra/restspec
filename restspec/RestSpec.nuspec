@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>restspec</id>
+    <version>$version$</version>
+    <title>REST Spec</title>
+    <authors>Talk Think Do Limited</authors>
+    <owners>>Talk Think Do Limited</owners>
+    <!--<licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+	    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <projectUrl>https://github.com/talkthinkdo/restspec</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>specflow bdd gherkin cucumber rest</tags>
+  </metadata>
+</package>
