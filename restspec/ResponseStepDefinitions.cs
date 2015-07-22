@@ -2,7 +2,6 @@
 using System.IO;
 using System.IO.Compression;
 using System.Threading.Tasks;
-using ICSharpCode.SharpZipLib.Zip;
 using Newtonsoft.Json;
 using Should;
 using TechTalk.SpecFlow;
