@@ -1,8 +1,8 @@
-﻿<?xml version="1.0"?>
-<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
   <specFlow>
     <stepAssemblies>
-      <stepAssembly assembly="restspec" xdt:Transform="Insert" />
+      <stepAssembly assembly="restspec" />
     </stepAssemblies>
   </specFlow>
 </configuration>
