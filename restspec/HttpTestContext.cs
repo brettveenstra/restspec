@@ -42,6 +42,7 @@ namespace restspec
         /// </value>
         public Uri BaseAddress { get; private set; }
         public HttpRequestMessage RequestMessage { get; set; }
-        public HttpResponseMessage ResponseMessage { get; set; } 
+        public HttpResponseMessage ResponseMessage { get; set; }
+        public TimeSpan TimeTaken { get; set; }
     }
 }

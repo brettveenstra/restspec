@@ -17,13 +17,13 @@ namespace restspec
             _context = context;
         }
 
-        [Then(@"the result should be '(.*)'")]
+        [Then(@"the status code should be '(.*)'")]
         public void ThenTheResultShouldBe(int p0)
         {
 
         }
 
-        [Then(@"the response should be valid JSON")]
+        [Then(@"the content should be valid JSON")]
         public void ThenTheResponseShouldBeValidJson()
         {
             var responseContentTask = _context.ResponseMessage.Content.ReadAsStringAsync();
@@ -69,13 +69,13 @@ namespace restspec
         }
 
 
-        [Then(@"the response content type header should be '(.*)'")]
+        [Then(@"the content type header should be '(.*)'")]
         public void ThenTheContentTypeHeaderShouldBe(string mediaType)
         {
             _context.ResponseMessage.Content.Headers.ContentType.MediaType.ShouldEqual(mediaType);
         }
 
-        [Then(@"the response content encoding header should contain '(.*)'")]
+        [Then(@"the content encoding header should contain '(.*)'")]
         public void ThenTheContentEncodingHeaderShouldBe(string encoding)
         {
             _context.ResponseMessage.Content.Headers.ContentEncoding.ShouldContain(encoding);
