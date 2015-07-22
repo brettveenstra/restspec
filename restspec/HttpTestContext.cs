@@ -40,7 +40,7 @@ namespace restspec
         /// <value>
         /// The base URI.
         /// </value>
-        public Uri BaseAddress { get; }
+        public Uri BaseAddress { get; private set; }
         public HttpRequestMessage RequestMessage { get; set; }
         public HttpResponseMessage ResponseMessage { get; set; } 
     }
