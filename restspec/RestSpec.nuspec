@@ -14,5 +14,15 @@
     <!--<releaseNotes>Summary of changes made in this release of the package.</releaseNotes>-->
     <copyright>Copyright 2015</copyright>
     <tags>specflow bdd gherkin cucumber rest api</tags>
+    <dependencies>
+      <dependency id="Microsoft.Net.Http" version="2.2.29" />
+      <dependency id="Newtonsoft.Json" version="7.0.1" />
+      <dependency id="Should" version="1.1.20" />
+      <dependency id="SpecFlow" version="1.9.0" />
+    </dependencies>
   </metadata>
+  <files>
+    <file src="bin\Debug\*.dll" target="lib" />
+    <file src="bin\Debug\*.pdb" target="lib" />
+  </files>
 </package>
