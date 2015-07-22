@@ -61,7 +61,7 @@ namespace restspec
                         }
                         break;
                     default:
-                        throw new ArgumentException($"{compressionMethod} is not a valid compression method");
+                        throw new ArgumentException(string.Format("{0} is not a valid compression method", compressionMethod));
                 }
 
             }
